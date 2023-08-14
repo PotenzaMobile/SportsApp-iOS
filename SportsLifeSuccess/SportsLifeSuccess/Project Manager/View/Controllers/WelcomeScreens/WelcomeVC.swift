@@ -76,7 +76,7 @@ class WelcomeVC: UIViewController, UIScrollViewDelegate {
         
         pagerControl.pageIndicatorTintColor = UIColor.lightGray
     }
-    
+     
     func configureButtons() {
         self.btnNext.addTarget(self, action: #selector(self.btnNextClick(_:)), for: .touchUpInside)
     }
